@@ -3,7 +3,7 @@ from xlrd import Book
 from excelCheck.utils.excelCheckUtil import Sheet, Point, init, checkSheet5, initialize_objects, Sheet3, Sheet4, Sheet5, Sheet6, \
     checkSheet3, dealDesignSheet
 
-from excelCheck.utils.tableInfoCheckUtil import getBalenceListAll
+# from excelCheck.utils.tableInfoCheckUtil import getBalenceListAll
 
 
 def getResStr(xlsUrl,designUrl):
@@ -36,7 +36,7 @@ def getResStr(xlsUrl,designUrl):
             lineList.append(x)
             count = count + strAll[x]
     resStr = resStr +"馈线有:" + str(lineList) + "， 总数为：" + str(count)+"\n"
-    overALl = float(getBalenceListAll())
+    # overALl = float(getBalenceListAll())
     sheet4All = float(sheet4obj.total)
     resStr = resStr +"表四甲和完工平衡表分别为：\n"+str(sheet4All)+"\n"+str(overALl)+"\n"
 
