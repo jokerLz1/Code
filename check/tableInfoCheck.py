@@ -1,4 +1,4 @@
-# from excelCheck.utils.tableInfoCheckUtil import checkBBURRU, initPoint, getBalenceListAll, timeCheck
+# from utils.tableInfoCheckUtil import checkBBURRU, initPoint, getBalenceListAll, timeCheck
 #
 # #检查规模数据
 # checkBBURRU()
