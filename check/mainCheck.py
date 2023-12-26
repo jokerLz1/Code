@@ -1,9 +1,9 @@
 from xlrd import Book
 
-from excelCheck.utils.excelCheckUtil import Sheet, Point, init, checkSheet5, initialize_objects, Sheet3, Sheet4, Sheet5, Sheet6, \
+from utils.excelCheckUtil import Sheet, Point, init, checkSheet5, initialize_objects, Sheet3, Sheet4, Sheet5, Sheet6, \
     checkSheet3, dealDesignSheet
 
-# from excelCheck.utils.tableInfoCheckUtil import getBalenceListAll
+# from utils.tableInfoCheckUtil import getBalenceListAll
 
 
 def getResStr(xlsUrl,designUrl):

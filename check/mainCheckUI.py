@@ -5,7 +5,7 @@ from tkinter import filedialog
 import xlrd
 
 
-from excelCheck.check.mainCheck import getResStr
+from check.mainCheck import getResStr
 
 
 def open_program_1():

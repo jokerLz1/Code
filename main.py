@@ -1,5 +1,5 @@
 
-import excelCheck.check.mainCheckUI  as UI
+import check.mainCheckUI  as UI
 
 
 if __name__ == '__main__':
